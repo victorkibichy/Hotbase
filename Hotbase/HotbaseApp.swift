@@ -14,7 +14,9 @@ struct HotbaseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                RootView()
+            }
         }
     }
 }
